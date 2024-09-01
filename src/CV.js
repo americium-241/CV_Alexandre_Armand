@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Briefcase, GraduationCap, Mail, Globe, MapPin, Languages, Code, Heart, Cpu, Brain, Phone, Award, Rocket } from 'lucide-react';
+import { User, Briefcase, GraduationCap, Mail, Globe, MapPin, Languages, Heart, Cpu, Brain, Phone, Award, Rocket } from 'lucide-react';
 
 const TimelineItem = ({ icon: Icon, title, date, organization, location, children }) => (
   <div className="mb-8 flex">
