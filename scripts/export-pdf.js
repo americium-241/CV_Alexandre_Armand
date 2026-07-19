@@ -85,7 +85,7 @@ const exportPdf = async () => {
       path: outputFile,
       format: 'A4',
       printBackground: true,
-      scale: 0.59,
+      scale: 0.57,
       margin: { top: 0, right: 0, bottom: 0, left: 0 },
     });
   } finally {

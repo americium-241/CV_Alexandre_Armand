@@ -194,6 +194,12 @@ const CV = () => {
             />
             <TimelineItem
               icon={GraduationCap}
+              title="Gestionnaire de maintenance en informatique"
+              date="2018 - 2020"
+              organization="CESI École Supérieure de l'Alternance"
+            />
+            <TimelineItem
+              icon={GraduationCap}
               title="Sciences physiques"
               date="2014 - 2016"
               organization="Université Paul Sabatier Toulouse III"
