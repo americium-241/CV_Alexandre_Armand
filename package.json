@@ -18,8 +18,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "export:pdf": "node scripts/export-pdf.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.16.0"
   },
   "eslintConfig": {
     "extends": [

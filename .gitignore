@@ -10,6 +10,7 @@
 
 # production
 /build
+/output/pdf/*.pdf
 
 # misc
 .DS_Store

@@ -2,6 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@media print {
+  .cv-page {
+    min-height: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+
+  .cv-document {
+    max-width: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .cv-header {
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  .cv-header-identity {
+    width: 33.333333% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .cv-header-about {
+    width: 66.666667% !important;
+    padding-left: 1.5rem !important;
+  }
+
+  .cv-main {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  .cv-content {
+    grid-column: span 2 / span 2 !important;
+  }
+
+  .cv-project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
